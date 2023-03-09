@@ -1,16 +1,16 @@
 import React from 'react';
-import Breadcrumb from '../components/Breadcrumb'
+import Breadcrumb from '../components/Breadcrumb';
 
 const TopNav = () => {
   const pages = [
-    { name: 'Home', path: '/' },
-    { name: 'Music', path: '/music' },
+    { name: 'Home', url: '/' },
+    { name: 'joy in pain?', url: '/music' },
   ];
 
   return (
-   <>
-     <Breadcrumb pages={pages} />
-   </>
+    <div>
+      <Breadcrumb pages={pages} />
+    </div>
   );
 };
 
