@@ -12,7 +12,7 @@ function Home() {
     <div className="flex justify-center text-2xl lg:pb-0 pb-8 sm:text-4xl">Father, Help Me</div>
     <div>
     <div className="relative flex justify-center">
-      <img className="w-full sm:w-auto sm:h-[400px]  lg:h-[400px] sm:p-4 pb-8 lg:p-12" src={IMG} alt="Father help me band" />
+      <img className="w-full sm:w-auto sm:h-[400px]  lg:h-[450px] sm:p-4 pb-8 lg:p-12" src={IMG} alt="Father help me band" />
     </div>
 
 <div className="flex justify-center">
