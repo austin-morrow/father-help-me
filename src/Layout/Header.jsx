@@ -1,5 +1,11 @@
 import React from 'react';
-
+import {
+    SlSocialInstagram,
+    SlSocialFacebook,
+    SlSocialSpotify,
+    SlMusicToneAlt,
+  } from "react-icons/sl";
+  
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 text-white py-4 px-6 flex justify-between items-center">
@@ -16,24 +22,16 @@ const Header = () => {
         {/* Spaces for Icons */}
         <div className="flex space-x-4">
           <a href="#" className="hover:text-gray-400">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              {/* Add your icon SVG here */}
-            </svg>
+            <SlSocialFacebook />
           </a>
           <a href="#" className="hover:text-gray-400">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              {/* Add your icon SVG here */}
-            </svg>
+           <SlSocialInstagram />
           </a>
           <a href="#" className="hover:text-gray-400">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              {/* Add your icon SVG here */}
-            </svg>
+           <SlSocialSpotify />
           </a>
           <a href="#" className="hover:text-gray-400">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              {/* Add your icon SVG here */}
-            </svg>
+           <SlMusicToneAlt />
           </a>
         </div>
       </nav>
